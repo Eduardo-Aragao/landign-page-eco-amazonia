@@ -10,13 +10,13 @@ export function Roadmap() {
       title: 'Captura de dados',
       description:
         'Criar fluxo para cadastrar e classificar resíduos, com campos exemplo de peso, tipo e local.',
-      status: 'Em andamento',
+      status: 'Concluído',
     },
     {
       title: 'Painel de monitoramento',
       description:
         'Montar a interface que mostra métricas, tendências e alertas de impacto em tempo real.',
-      status: 'Em breve',
+      status: 'Concluído',
     },
     {
       title: 'Relatórios e exportação',
@@ -50,11 +50,16 @@ export function Roadmap() {
               >
                 <span className="absolute -left-5 top-10 flex h-4 w-4 items-center justify-center rounded-full bg-emerald-500 ring-4 ring-white/10" />
 
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
                   <div className="max-w-2xl">
                     <h3 className="text-xl font-bold text-white">{step.title}</h3>
                     <p className="mt-3 text-sm leading-6 text-zinc-400">{step.description}</p>
                   </div>
+
+                  <span className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-white/60">
+                    <span className="mr-2 inline-flex h-2.5 w-2.5 rounded-full bg-emerald-500" />
+                    {step.status}
+                  </span>
                 </div>
               </article>
             ))}
