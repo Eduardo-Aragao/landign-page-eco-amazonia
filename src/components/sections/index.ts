@@ -1,0 +1,11 @@
+export { Hero } from './Hero';
+export { About } from './About';
+export { Features } from './Features';
+export { AppShowcase } from './AppShowcase';
+export { Sustainability } from './Sustainability';
+export { Impact } from './Impact';
+export { Stats } from './Stats';
+export { Team } from './Team';
+export { CTA } from './CTA';
+export { WasteTypes } from './WasteTypes';
+export { TechStack } from './TechStack';
