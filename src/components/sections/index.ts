@@ -9,3 +9,4 @@ export { Team } from './Team';
 export { CTA } from './CTA';
 export { WasteTypes } from './WasteTypes';
 export { TechStack } from './TechStack';
+export { Roadmap } from './Roadmap';

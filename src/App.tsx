@@ -6,6 +6,7 @@ import {
   Features,
   Hero,
   Impact,
+  Roadmap,
   Stats,
   Sustainability,
   TechStack,
@@ -22,6 +23,7 @@ function App() {
         <About />
         <Features />
         <AppShowcase />
+        <Roadmap />
         <WasteTypes />
         <Sustainability />
         <Impact />
