@@ -35,7 +35,7 @@ export function Roadmap() {
           </span>
           <h2 className="mt-4 text-3xl font-bold text-white">Roadmap da aplicação</h2>
           <p className="mt-3 text-white/60">
-            Etapas principais da estrutura interna do app, com cards que seguem o estilo escuro e suave da landing.
+            Acompanhe a evolução do EcoAmazônia. Nossa jornada é dividida em etapas claras, desde a concepção da inteligência de dados até a expansão do monitoramento em tempo real.
           </p>
         </div>
 
