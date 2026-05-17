@@ -13,6 +13,7 @@ import enzoPhoto from '@/assets/team/Enzo-leiva.jpeg';
 import raymondPhoto from '@/assets/team/Raymond-Lugo.jpeg';
 import thiagoPhoto from '@/assets/team/Thiago-Massa.png';
 import victorPhoto from '@/assets/team/Victor-Matthaus.png';
+import eduardoPhoto from '@/assets/team/Eduardo-Aragao.jpg';
 
 export const screenshots = {
   home: screenHome,
@@ -34,6 +35,7 @@ export const teamPhotos = {
   raymond: raymondPhoto,
   thiago: thiagoPhoto,
   victor: victorPhoto,
+  eduardo: eduardoPhoto,
 } as const;
 
 export type TeamPhotoKey = keyof typeof teamPhotos;

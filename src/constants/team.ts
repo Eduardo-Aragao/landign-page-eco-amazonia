@@ -82,6 +82,18 @@ export const webTeam: TeamMember[] = [
       linkedin: 'https://www.linkedin.com/in/thiago-massa-70ba5b2a7/',
     },
   },
+  {
+    id: 'eduardo',
+    name: 'Eduardo Aragao',
+    role: 'Front-end Web',
+    bio: 'Responsável pela implementação prática de novas features e otimização do fluxo de dados na interface web do projeto.',
+    track: 'web',
+    photo: teamPhotos.eduardo,
+    social: {
+      github: 'https://github.com/Eduardo-Aragao',
+      linkedin: 'https://www.linkedin.com/in/eduardo-s-aragao/',
+    },
+  },
 ];
 
 export const backendTeam: TeamMember[] = [
