@@ -34,11 +34,11 @@ export const techStack: TechDomain[] = [
     number: '02',
     domain: 'Backend',
     architecture: {
-      label: 'DDD',
-      subtitle: 'domain-driven para domínios complexos',
+      label: 'MVC',
+      subtitle: 'arquitetura consolidada para APIs resilientes',
     },
     description:
-      'Backend modular e escalável com separação clara de domínios, agregados e camadas de aplicação. Robustez e manutenibilidade pensadas para o longo prazo.',
+      'Backend robusto e escalável estruturado no padrão MVC, garantindo uma separação clara entre o controle de requisições e as regras de negócio.',
     technologies: [
       { id: 'node', name: 'Node.js', icon: 'nodejs', gradient: 'from-emerald-500 to-green-700' },
       { id: 'nestjs', name: 'NestJS', icon: 'nestjs', gradient: 'from-rose-500 to-red-700' },
